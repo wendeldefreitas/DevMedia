@@ -5,7 +5,7 @@ Decidi colocar todos os projetos juntos pois são apenas para estudos. Meu objet
 
 ## O que eu uso nos projetos:
 
-<ol>
+<ul>
   <tr>
     <td>VScode</td>
   </tr>
@@ -15,6 +15,6 @@ Decidi colocar todos os projetos juntos pois são apenas para estudos. Meu objet
   <tr>
     <td>HTML + CSS</td>
   </tr>
-</ol>
+</ul>
 
 Obs: Na pasta de cada projeto especificarei com detalhes: Tecnicas abordadas, tecnologias usadas, e efentual ferramenta usada para o auxilio.
