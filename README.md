@@ -5,16 +5,9 @@ Decidi colocar todos os projetos juntos pois são apenas para estudos. Meu objet
 
 ## O que eu uso nos projetos:
 
-<ul>
-  <tr>
-    <td>VScode</td>
-  </tr>
-  <tr>
-    <td>GIT</td>
-  </tr>
-  <tr>
-    <td>HTML + CSS</td>
-  </tr>
-</ul>
+- VScode
+- GIT
+- HTML + CSS
+
 
 Obs: Na pasta de cada projeto especificarei com detalhes: Tecnicas abordadas, tecnologias usadas, e efentual ferramenta usada para o auxilio.
