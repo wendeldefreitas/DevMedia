@@ -8,3 +8,5 @@ Ao criar esse projeto, você vai poder colocar em prática os seguintes conceito
     - Meta tags HTML
     - Listas no HTML
     - Seletores CSS
+
+![](assets/gif/projeto.gif)
