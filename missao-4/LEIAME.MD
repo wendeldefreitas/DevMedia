@@ -9,4 +9,16 @@ Ao criar esse projeto, você vai poder colocar em prática os seguintes conceito
     - Listas no HTML
     - Seletores CSS
 
+Ferramentas usadas:
+
+    - VSCode
+    - Git/GitHub
+        - Usando padrões de commit.
+        
+    - Mozila Firefox
+    - Lightshot
+        - Lightshot é uma ferramenta gratuita para tirar "print" da tela, muito boa para medir o espaçamentos entre os elementos ou o tamanho de uma imagem, pois ele dá a medição em pixel. Perfeito para fazer o famoso "PIXEL PERFECT", ou seja, deixar tudo identico ao desing proposto.
+        
+    
+
 ![](assets/gif/projeto.gif)
