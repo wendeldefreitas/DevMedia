@@ -26,5 +26,7 @@ Ferramentas usadas:
 ## Desing proposto para a página INDEX.HTML
 ![](assets/gif/pagina-principal-finalizada.gif)
 
+</br></br>
+
 ## Design proposto para a página QUARTOS.HTML
 ![](assets/gif/pagina-quartos-finalizada.gif)
