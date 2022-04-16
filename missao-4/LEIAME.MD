@@ -17,7 +17,10 @@ Ferramentas usadas:
         
     - Mozila Firefox
     - Lightshot
-        - Lightshot é uma ferramenta gratuita para tirar "print" da tela, muito boa para medir o espaçamentos entre os elementos ou o tamanho de uma imagem, pois ele dá a medição em pixel. Perfeito para fazer o famoso "PIXEL PERFECT", ou seja, deixar tudo identico ao desing proposto.
+        - Ferramenta gratuita para tirar "print" da tela, muito boa para medir o espaçamentos
+        entre os elementos ou o tamanho de uma imagem, pois ele dá a medição em pixel.
+        Perfeito para fazer o famoso "PIXEL PERFECT", ou seja, deixar tudo identico ao
+        desing proposto.
         
     
 
