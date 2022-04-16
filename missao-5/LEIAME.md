@@ -23,8 +23,8 @@ Ferramentas usadas:
         Perfeito para fazer o famoso "PIXEL PERFECT", ou seja, deixar tudo identico ao
         desing proposto.
 
-Desing proposto para a página INDEX.HTML
+## Desing proposto para a página INDEX.HTML
 ![](assets/gif/pagina-principal-finalizada.gif)
 
-Design proposto para a página QUARTOS.HTML
+## Design proposto para a página QUARTOS.HTML
 ![](assets/gif/pagina-quartos-finalizada.gif)
