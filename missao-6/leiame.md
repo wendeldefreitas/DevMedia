@@ -10,14 +10,14 @@ Dessa forma você vai poder colocar em prática os seguintes conceitos:
   - Construindo o css com foco no mobile, MOBILE FIRST.
   
 ## MOBILE :iphone:
-![](assets/gif/index-mobile.gif)
+![](assets/gif/index-mobile.gif =300x500)
 
 </br></br>
 
 ## TABLET | NOTEBOOK 💻
-![](assets/gif/index-tablet.gif)
+![](assets/gif/index-tablet.gif =300x500)
 
 </br></br>
 
 ## DESKTOP :computer:
-![](assets/gif/index-desktop.gif)
+![](assets/gif/index-desktop.gif =300x500)
