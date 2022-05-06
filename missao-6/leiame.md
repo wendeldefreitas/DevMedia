@@ -9,15 +9,15 @@ Dessa forma você vai poder colocar em prática os seguintes conceitos:
   - Utilizar Flexbox e media queries.
   - Construindo o css com foco no mobile, MOBILE FIRST.
   
-## MOBILE :iphone:
-![](assets/gif/index-mobile.gif=300x500)
+## :iphone: MOBILE
+<img src="assets/gif/index-mobile.gif" width="400" height="500"/>
 
 </br></br>
 
-## TABLET | NOTEBOOK 💻
-![](assets/gif/index-tablet.gif=300x500)
+## 💻 TABLET | NOTEBOOK 
+<img src="assets/gif/index-tablet.gif" width="400" height="500"/>
 
 </br></br>
 
-## DESKTOP :computer:
-![](assets/gif/index-desktop.gif=300x500)
+## :computer: DESKTOP
+<img src="assets/gif/index-desktop.gif" width="400" height="500"/>
