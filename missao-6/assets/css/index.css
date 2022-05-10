@@ -41,7 +41,28 @@ h5{
   padding: 20px;
   margin: 0 auto;
 }
-
+/* flex box */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* fim flex box */
 
 /* HEADER *//* HEADER *//* HEADER */
 /* HEADER *//* HEADER *//* HEADER */
@@ -113,6 +134,11 @@ h5{
 }
 /* fim section banner */
 
+/* section sobre */
+.img-conteudo img{
+  display: none;
+}
+/* fim section sobre */
 
 .conteudo{
   max-width: 600px;
@@ -177,21 +203,21 @@ figure figcaption{
 /* @media - TABLET | LANDSCAPE */
 /* @media - TABLET | LANDSCAPE */
 @media screen and (min-width: 426px){
+  /* HEADER */
   .header .container{
     max-width: 1024px;
     flex-direction: row;
     justify-content: space-between;
   }
-
   .nav{
     justify-content: flex-end;
     border: none;
   }
 
+  /* MAIN */
   .banner-title{
     font-size: 2.3rem;
   }
-
   .galeria figure{
     /* width: metade da tela menos margin da img */
     width: calc(50% - 30px);
@@ -199,15 +225,25 @@ figure figcaption{
 }
 
 @media screen and (min-width: 769px) {
+  /* HEADER */
   .nav-item{
     padding-left: 25px;
     padding-right: 25px;
   }
 
+  /* MAIN */
   .banner-title{
     font-size: 2.5rem;
   }
-
+  .img-conteudo .conteudo{
+    margin: 0;
+  }
+  .img-conteudo img{
+    display: block;
+    width: auto;
+    height: 250px;
+    margin: 0;
+  }
   .galeria figure{
     /* width: metade da tela menos margin da img */
     width: calc(100%/3 - 30px);
