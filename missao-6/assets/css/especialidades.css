@@ -1,0 +1,76 @@
+/* MAIN MAIN MAIN */
+/* MAIN MAIN MAIN */
+
+/* section main-nav */
+.main-nav{
+  flex-wrap: wrap;
+}
+.main-nav-item{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #00cad1;
+}
+.main-nav-item:hover{
+  color: #0d6e71;
+}
+/* fim section main-nav */
+
+.main-title{
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 30px;
+}
+
+/* section especialidades */
+.tabela-informacoes{
+  width: 100%;
+  height: 240px;
+}
+.tabela-informacoes img{
+  display: none;
+}
+
+.table{
+  width: 100%;
+  height: 100%;
+  border-spacing: 0;
+  text-align: left;
+}
+.thead{
+  background-color: #00cad1;
+  color: #FFFFFF;
+}
+.tbody tr:nth-of-type(odd){
+  /* odd = IMPAR */
+  background-color: #cdcdcd;
+}
+.tbody tr:nth-of-type(even){
+  /* even = PAR */
+  background-color: #f1f1f1;
+}
+.tbody tr td,
+.thead tr th{
+  padding: 10px;
+}
+/* fim section especialidades */
+/* FIM MAIN */
+
+/* @MEDIA*/
+/* @MEDIA*/
+@media screen and (min-width: 769px){
+  
+  .tabela-informacoes{
+    display: flex;
+  }
+  .table{
+    width: 70%;
+  }
+  .tabela-informacoes img{
+    display: block;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
