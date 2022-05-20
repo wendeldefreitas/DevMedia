@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="formularios com todos os tipos de inputs">
+  <title>FORMULARIOS</title>
+</head>
+<body>
+  <form action="https://www.devmedia.com.br/codigos/formularios/aula2/" method="post">
+    
+    <label>Sugestao</label>
+    <textarea name="sugestao"
+      id="sugestao"
+      cols="30" rows="10"
+      placeholder="Gostaria de deixar uma sugestão?"
+    ></textarea>
+    
+    <label>Nome</label>
+    <input type="text"
+      name="nome"
+      id="nome"
+      placeholder="Digite seu nome"
+    />
+    
+    <label>Date</label>
+    <input type="date" name="data_nascimento" id="data_nascimento" placeholder="Digite sua data de nascimento"/>
+    
+    <label>Email</label>
+    <input type="email" name="email" id="email" placeholder="Digite seu email"/>
+    
+    <label>Telefone</label>
+    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone"/>
+    
+    <label>Cogido de confirmação</label>
+    <input type="number" name="codigo_confirmacao" id="codigo_confirmacao" placeholder="Digite um numero"/>
+    
+    <label>Login</label>
+    <input type="text" name="login" id="login" placeholder="Login"/>
+    
+    <label>Senha</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required/>
+
+    <label>Varias opções</label>
+    <label>primeira</label>
+    <input type="checkbox" name="opcoes[]" id="primeira" value="primeira" checked>
+     
+    <label>segunda</label>
+    <input type="checkbox" name="opcoes[]" id="segunda" value="segunda">
+     
+    <label>terceira</label>
+    <input type="checkbox" name="opcoes[]" id="terceira" value="terceira">
+
+    <h2>Possui animal de estimação?</h2>
+    <input type="radio" name="resposta" id="animal-sim" value="sim" required/>
+    <label for="animal-sim">Sim</label>
+    <input type="radio" name="resposta" id="animal-nao" value="nao"/>
+    <label for="animal-nao">Não</label>
+
+    <select name="jogo" size="8" multiple>
+      <optgroup label="Xbox">
+        <option value="gearsofwar">Gears of War</option>
+        <option value="haloinfinite">Halo Infinite</option>
+        <option value="forzamotorsport">Forza Motorsport</option>
+        <option value="forzahorizon">Forza Horizon</option>
+      </optgroup>
+
+      <optgroup label="PlayStation">
+        <option value="godofwar">God of War</option>
+        <option value="uncharted">Uncharted</option>
+        <option value="thelastofus">The Last of Us</option>
+        <option value="granturismo">Gran Turismo</option>
+      </optgroup>
+
+      <optgroup label="Nintendo">
+        <option value="mariokart">Mario Kart 8 Deluxe</option>
+        <option value="zelda">The Legend of Zelda</option>
+        <option value="mario">Super Mario Odyssey</option>
+      </optgroup>
+    </select>
+    
+    <button type="submit">Enviar sugestão</button>
+    
+  </form>
+</body>
+</html>
