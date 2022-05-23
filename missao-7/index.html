@@ -3,13 +3,203 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="A Agência de Viagens encontra o hotel certo para você!">
+  <title>Agência de viagens</title>
 </head>
 <body>
-  <header></header>
-  <main>
+  <header>
+    <div>
+      <a href="http://">
+        <img src="assets/img/local-logo.png" alt="logo" title="logo">
+      </a>
+      <p>Agência de Viagens</p>
+    </div>
+  </header>
 
+  <main>
+    <section id="formulario">
+      <div>
+        <div>
+          <img src="assets/img/aviao.png" alt="icone avião" title="icone avião">
+          <h1>Solicite um orçamento</h1>
+        </div>
+        <div>
+          <h2>Informe seus dados</h2>
+          <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"/>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="celular">Celular</label>
+            <input type="tel" name="celular" id="celular">
+
+            <div class="datas-ida-volta">
+              <div>
+                <label for="data-ida">Data da ida</label>
+                <input type="date" name="data-ida" id="data-ida">
+              </div>
+
+              <div>
+                <label for="data-volta">Data da Volta</label>
+                <input type="date" name="data-volta" id="data-volta">
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <label for="origem">Origem</label>
+                <select name="origem" id="origem">
+                  <option value="teste1">Teste1</option>
+                  <option value="teste2">Teste2</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="destino">Destino</label>
+                <select name="destino" id="destino">
+                  <option value="teste1">Teste1</option>
+                  <option value="teste2">Teste2</option>
+                </select>  
+              </div>
+            </div>
+            
+            <div>
+              <label for="cama-infantil">Quarto com cama infantil?</label>
+              <div>
+                <input type="radio" name="cama-infantil" id="cama-infantil" value="sim">
+                <label for="">Sim</label>
+              </div>
+
+              <div>
+                <input type="radio" name="cama-infantil" id="cama-infantil" value="nao">
+                <label for="">Não</label>
+              </div>
+            </div>
+
+            <label for="preferencias">Preferências da hospedagem</label>
+            <div>
+              <div>
+                <input type="checkbox" name="preferencais[]" id="piscina" value="piscina">
+                <label for="piscina">Piscina</label>
+              </div>
+              
+              <div>
+                <input type="checkbox" name="preferencais[]" id="wi-fi" value="wi-fi">
+                <label for="wi-fi">Wi-fi</label>
+              </div>
+
+              <div>
+                <input type="checkbox" name="preferencais[]" id="garagem" value="garagem">
+                <label for="garagem">Garagem</label>
+              </div>
+
+              <div>
+                <input type="checkbox" name="preferencais[]" id="suite" value="suite">
+                <label for="suite">Suite</label>
+              </div>
+            </div>
+
+            <button type="submit">Solicitar orçamento</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="ofertas">
+      <h3>Ofertas</h3>
+      <h4>Com até 50% de desconto</h4>
+      <div>
+        <figure>
+          <img src="assets/img/rio.jpg" alt="RJ-cristo" title="Cristo Redentor - Rio de Janeiro">
+          <figcaption>Rio de Janeiro</figcaption>
+        </figure>
+        <div>
+          <figure>
+            <img src="assets/img/manaus.jpg" alt="Manaus" title="Igreja Manaus">
+            <figcaption>Manaus</figcaption>
+          </figure>
+          
+          <figure>
+            <img src="assets/img/saopaulo.jpg" alt="São Paulo" title="São Paulo">
+            <figcaption>São Paulo</figcaption>
+          </figure>
+          
+          <figure>
+            <img src="assets/img/niteroi.jpg" alt="ponte niteroi" title="Ponte Rio Niteroi - Rio de Janeiro">
+            <figcaption>Rio de Janeiro</figcaption>
+          </figure>
+          
+          <figure>
+            <img src="assets/img/maranhao.jpg" alt="maranhão" title="Maranhão">
+            <figcaption>Maranhão</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="anuncios">
+      <h3>Explore a Natureza</h3>
+      <h4>Viaje conosco e veja o melhor que a natureza tem a oferecer.</h4>
+      <div>
+        <figure>
+          <img src="assets/img/lencol.jpg" alt="Lençois Maranhenses, Brasil" title="Lençois Maranhenses, Brasil">
+          <figcaption>
+            <h4>Lençois Maranhenses, Brasil</h4>
+            <p>Ida e volta a partir de R$ 79</p>
+          </figcaption>
+        </figure>
+        
+        <figure>
+          <img src="assets/img/goias.jpg" alt="Cachoeira Santa Bárbara, Brasil" title="Cachoeira Santa Bárbara, Goiás - Brasil">
+          <figcaption>
+            <h4>Cachoeira Santa Bárbara, Brasil</h4>
+            <p>Ida e volta por R$139</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
   </main>
-  <footer></footer>
+
+  <footer>
+    <div>
+      <div>
+        <h3>Contato</h3>
+        <div>
+          <img src="assets/img/local.png" alt="icone local" title="icone local">
+          <span>Rio de Janeiro, RJ</span>
+        </div>
+
+        <div>
+          <img src="assets/img/telefone.png" alt="icone telefone" title="icone telefone">
+          <span>Telefone (21)9999-9999</span>
+        </div>
+
+        <div>
+          <img src="assets/img/email.png" alt="icone email" title="icone email">
+          <span>Email: contato@agencia.com.br</span>
+        </div>
+      </div>
+
+      <div>
+        <h3>Nossas Redes Sociais</h3>
+        <div>
+          <img src="assets/img/fb.png" alt="icone facebook" title="Facebook da empresa">
+          <span>/AgenciaDeViagem</span>
+        </div>
+        
+        <div>
+          <img src="assets/img/ig.png" alt="icone instagram" title="Instagram da empresa">
+          <span>@AgenciaDeViagem</span>
+        </div>
+        
+        <div>
+          <img src="assets/img/tt.png" alt="icone twitter" title="Twitter da empresa">
+          <span>@AgenciaDeViagem</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
