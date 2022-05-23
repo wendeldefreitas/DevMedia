@@ -8,4 +8,4 @@ Ao criar esse projeto, você vai poder colocar em prática o seguinte conceito:
 
   - Formulários HTML
 
-![](assets/gif/projeto.gif)
+<img src="assets/gif/projeto.gif" width="738" height="571"/>
