@@ -7,3 +7,5 @@ Para isso vamos usar as linguagens HTML e CSS. Teremos um arquivo HTML que conte
 Ao criar esse projeto, você vai poder colocar em prática o seguinte conceito:
 
   - Formulários HTML
+
+![](assets/gif/projeto.gif)
